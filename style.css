@@ -1,0 +1,60 @@
+body {
+  width: 60%;
+  margin: 2vw auto;
+  font-family:"Comic Sans MS";
+  
+}
+.heading {
+  font-family: "Playfair Display", serif;
+  font-size: 8vw;
+}
+
+.subheading {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 40em) {
+  body {
+    width: 70%;
+    border: 5px black solid;
+    border-radius:25px;
+  }
+  .heading {
+    font-size: 6vw;
+  }
+  * img {
+    width: 100px;
+    border-radius:20%;
+  }
+  .subheading {
+    font-size: 1.75vw;
+  }
+  .col-md-4{
+    padding:5px;
+  }
+  .row{
+    border: 2px black solid;
+    margin-bottom:10px;
+  }
+}
+
+/*================================================
+Start Important Part
+==================================================*/
+
+.underline--magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
+
+/*================================================
+End Important Part
+==================================================*/
